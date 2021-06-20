@@ -7,11 +7,31 @@
     tools:context=".MainMenu">
 
     <Button
+        android:id="@+id/b2"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Renault SANDERO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:text="Renault megan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/B1" />
+
+    <Button
         android:id="@+id/B1"
-        android:layout_width="213dp"
-        android:layout_height="49dp"
+        android:layout_width="311dp"
+        android:layout_height="60dp"
         android:layout_marginTop="76dp"
-        android:text="Button"
+        android:text="Renault Logan (l поколение)"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -18,8 +18,8 @@ public class AddWordsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_words);
         EditText word = findViewById(R.id.editTextTextPersonName);
         EditText word1 = findViewById(R.id.editTextTextPersonName2);
-        EditText word2 = findViewById(R.id.editTextTextPersonName);
-        EditText word3 = findViewById(R.id.editTextTextPersonName2);
+        EditText word2 = findViewById(R.id.editTextTextPersonName3);
+        EditText word3 = findViewById(R.id.editTextTextPersonName4);
 
         Button button = findViewById(R.id.button);
 
